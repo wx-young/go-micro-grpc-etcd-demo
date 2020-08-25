@@ -1,0 +1,1 @@
+protoc --go_out=protobuf/greet/greet.proto=internal/proto/greet/greet.proto \
