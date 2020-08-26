@@ -1,0 +1,11 @@
+syntax = "proto3";
+package models;
+option go_package="internal/proto";
+
+// UserModel
+message UserInfo{
+    string  userID = 1;
+    string  userName =2;
+    int32 userAge=3;
+    int32 userScore=4;
+}

@@ -8,7 +8,7 @@ package main
 
 import (
 	"context"
-	pbGreet "go-micro-grpc-etcd-demo/internal/proto/greet"
+	pb "go-micro-grpc-etcd-demo/internal/proto"
 	"google.golang.org/grpc"
 	"log"
 )
@@ -22,17 +22,34 @@ func main() {
 	}
 	defer connet.Close()
 
-	client := pbGreet.NewGreeterClient(connet)
+	//client := pbGreet.NewGreeterClient(connet)
 
-	rep := &pbGreet.HelloRequest{
-		Name:"Tom",
+	//rep := &pbGreet.HelloRequest{
+	//	Name: "Tom",
+	//}
+	//resp, err := client.SayHello(context.Background(), rep)
+	//
+	//if err != nil {
+	//	log.Println("greet error.")
+	//}
+	//
+	//log.Printf("greet end:  %s  ", resp.GetMessage())
+
+	userClient := pb.NewUserServiceClient(connet)
+	users := make([]*pb.UserInfo, 0)
+	for i := 0; i <= 5; i++ {
+		user := pb.UserInfo{
+			UserID:  string(i),
+			UserAge: int32(i + 1),
+		}
+		users = append(users, &user)
 	}
-	resp, err := client.SayHello(context.Background(), rep)
-
+	ret, err := userClient.GetUserInfo(context.Background(), &pb.UserInfoRequest{
+		Users: users,
+	})
 	if err != nil {
-		log.Println("greet error.")
+		log.Fatalf("rpc get user info error: %v", err)
 	}
-
-	log.Printf("greet end:  %s  ",resp.GetMessage())
+	log.Println(ret.Users)
 
 }

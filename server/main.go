@@ -7,7 +7,7 @@
 package main
 
 import (
-	pbGreet "go-micro-grpc-etcd-demo/internal/proto/greet"
+	pb "go-micro-grpc-etcd-demo/internal/proto"
 	"go-micro-grpc-etcd-demo/internal/services"
 	"google.golang.org/grpc"
 	"log"
@@ -33,11 +33,18 @@ func main() {
 		}
 	}()
 
-	rpcServer := grpc.NewServer()
-	pbGreet.RegisterGreeterServer(rpcServer, new(services.GreetServiceImpl))
-	err = rpcServer.Serve(listen)
+	//rpcServer := grpc.NewServer()
+	//pbGreet.RegisterGreeterServer(rpcServer, new(services.GreetServiceImpl))
+	//err = rpcServer.Serve(listen)
+	//if err != nil {
+	//	log.Fatalln("greet service start fail")
+	//}
+
+	rpcUser := grpc.NewServer()
+	pb.RegisterUserServiceServer(rpcUser, new(services.UserServicesImpl))
+	err = rpcUser.Serve(listen)
 	if err != nil {
-		log.Fatalln("greet service start fail")
+		log.Fatalf("user service start fail.")
 	}
 
 }

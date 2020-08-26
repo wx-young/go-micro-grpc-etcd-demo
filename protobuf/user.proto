@@ -1,0 +1,19 @@
+syntax = "proto3";
+package user;
+option go_package="internal/proto";
+import "protobuf/models.proto";
+
+
+message UserInfoResponse{
+    repeated  models.UserInfo users = 1;
+}
+
+message UserInfoRequest{
+    repeated models.UserInfo users = 1;
+}
+
+service UserService {
+
+    // 普通请求
+    rpc GetUserInfo(UserInfoRequest)returns(UserInfoResponse){}
+}
