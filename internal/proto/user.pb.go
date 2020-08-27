@@ -136,14 +136,28 @@ var file_protobuf_user_proto_rawDesc = []byte{
 	0x0a, 0x0f, 0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73,
 	0x74, 0x12, 0x26, 0x0a, 0x05, 0x75, 0x73, 0x65, 0x72, 0x73, 0x18, 0x01, 0x20, 0x03, 0x28, 0x0b,
 	0x32, 0x10, 0x2e, 0x6d, 0x6f, 0x64, 0x65, 0x6c, 0x73, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x49, 0x6e,
-	0x66, 0x6f, 0x52, 0x05, 0x75, 0x73, 0x65, 0x72, 0x73, 0x32, 0x4d, 0x0a, 0x0b, 0x55, 0x73, 0x65,
-	0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x12, 0x3e, 0x0a, 0x0b, 0x47, 0x65, 0x74, 0x55,
-	0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x12, 0x15, 0x2e, 0x75, 0x73, 0x65, 0x72, 0x2e, 0x55,
-	0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x16,
-	0x2e, 0x75, 0x73, 0x65, 0x72, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65,
-	0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x00, 0x42, 0x10, 0x5a, 0x0e, 0x69, 0x6e, 0x74, 0x65,
-	0x72, 0x6e, 0x61, 0x6c, 0x2f, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74,
-	0x6f, 0x33,
+	0x66, 0x6f, 0x52, 0x05, 0x75, 0x73, 0x65, 0x72, 0x73, 0x32, 0xb6, 0x02, 0x0a, 0x0b, 0x55, 0x73,
+	0x65, 0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x12, 0x3e, 0x0a, 0x0b, 0x47, 0x65, 0x74,
+	0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x12, 0x15, 0x2e, 0x75, 0x73, 0x65, 0x72, 0x2e,
+	0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a,
+	0x16, 0x2e, 0x75, 0x73, 0x65, 0x72, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52,
+	0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x00, 0x12, 0x4e, 0x0a, 0x19, 0x47, 0x65, 0x74,
+	0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x42, 0x79, 0x53, 0x65, 0x72, 0x76, 0x65, 0x72,
+	0x53, 0x74, 0x72, 0x65, 0x61, 0x6d, 0x12, 0x15, 0x2e, 0x75, 0x73, 0x65, 0x72, 0x2e, 0x55, 0x73,
+	0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e,
+	0x75, 0x73, 0x65, 0x72, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x73,
+	0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x00, 0x30, 0x01, 0x12, 0x4e, 0x0a, 0x19, 0x47, 0x65, 0x74,
+	0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x42, 0x79, 0x43, 0x6c, 0x69, 0x65, 0x6e, 0x74,
+	0x53, 0x74, 0x72, 0x65, 0x61, 0x6d, 0x12, 0x15, 0x2e, 0x75, 0x73, 0x65, 0x72, 0x2e, 0x55, 0x73,
+	0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e,
+	0x75, 0x73, 0x65, 0x72, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x73,
+	0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x00, 0x28, 0x01, 0x12, 0x47, 0x0a, 0x10, 0x47, 0x65, 0x74,
+	0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x42, 0x79, 0x54, 0x57, 0x53, 0x12, 0x15, 0x2e,
+	0x75, 0x73, 0x65, 0x72, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x71,
+	0x75, 0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e, 0x75, 0x73, 0x65, 0x72, 0x2e, 0x55, 0x73, 0x65, 0x72,
+	0x49, 0x6e, 0x66, 0x6f, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x00, 0x28, 0x01,
+	0x30, 0x01, 0x42, 0x10, 0x5a, 0x0e, 0x69, 0x6e, 0x74, 0x65, 0x72, 0x6e, 0x61, 0x6c, 0x2f, 0x70,
+	0x72, 0x6f, 0x74, 0x6f, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
 }
 
 var (
@@ -168,9 +182,15 @@ var file_protobuf_user_proto_depIdxs = []int32{
 	2, // 0: user.UserInfoResponse.users:type_name -> models.UserInfo
 	2, // 1: user.UserInfoRequest.users:type_name -> models.UserInfo
 	1, // 2: user.UserService.GetUserInfo:input_type -> user.UserInfoRequest
-	0, // 3: user.UserService.GetUserInfo:output_type -> user.UserInfoResponse
-	3, // [3:4] is the sub-list for method output_type
-	2, // [2:3] is the sub-list for method input_type
+	1, // 3: user.UserService.GetUserInfoByServerStream:input_type -> user.UserInfoRequest
+	1, // 4: user.UserService.GetUserInfoByClientStream:input_type -> user.UserInfoRequest
+	1, // 5: user.UserService.GetUserInfoByTWS:input_type -> user.UserInfoRequest
+	0, // 6: user.UserService.GetUserInfo:output_type -> user.UserInfoResponse
+	0, // 7: user.UserService.GetUserInfoByServerStream:output_type -> user.UserInfoResponse
+	0, // 8: user.UserService.GetUserInfoByClientStream:output_type -> user.UserInfoResponse
+	0, // 9: user.UserService.GetUserInfoByTWS:output_type -> user.UserInfoResponse
+	6, // [6:10] is the sub-list for method output_type
+	2, // [2:6] is the sub-list for method input_type
 	2, // [2:2] is the sub-list for extension type_name
 	2, // [2:2] is the sub-list for extension extendee
 	0, // [0:2] is the sub-list for field type_name
@@ -242,6 +262,12 @@ const _ = grpc.SupportPackageIsVersion6
 type UserServiceClient interface {
 	// 普通请求
 	GetUserInfo(ctx context.Context, in *UserInfoRequest, opts ...grpc.CallOption) (*UserInfoResponse, error)
+	// 服务器流接受
+	GetUserInfoByServerStream(ctx context.Context, in *UserInfoRequest, opts ...grpc.CallOption) (UserService_GetUserInfoByServerStreamClient, error)
+	// 客户端流
+	GetUserInfoByClientStream(ctx context.Context, opts ...grpc.CallOption) (UserService_GetUserInfoByClientStreamClient, error)
+	// 客户端服务器流
+	GetUserInfoByTWS(ctx context.Context, opts ...grpc.CallOption) (UserService_GetUserInfoByTWSClient, error)
 }
 
 type userServiceClient struct {
@@ -261,10 +287,113 @@ func (c *userServiceClient) GetUserInfo(ctx context.Context, in *UserInfoRequest
 	return out, nil
 }
 
+func (c *userServiceClient) GetUserInfoByServerStream(ctx context.Context, in *UserInfoRequest, opts ...grpc.CallOption) (UserService_GetUserInfoByServerStreamClient, error) {
+	stream, err := c.cc.NewStream(ctx, &_UserService_serviceDesc.Streams[0], "/user.UserService/GetUserInfoByServerStream", opts...)
+	if err != nil {
+		return nil, err
+	}
+	x := &userServiceGetUserInfoByServerStreamClient{stream}
+	if err := x.ClientStream.SendMsg(in); err != nil {
+		return nil, err
+	}
+	if err := x.ClientStream.CloseSend(); err != nil {
+		return nil, err
+	}
+	return x, nil
+}
+
+type UserService_GetUserInfoByServerStreamClient interface {
+	Recv() (*UserInfoResponse, error)
+	grpc.ClientStream
+}
+
+type userServiceGetUserInfoByServerStreamClient struct {
+	grpc.ClientStream
+}
+
+func (x *userServiceGetUserInfoByServerStreamClient) Recv() (*UserInfoResponse, error) {
+	m := new(UserInfoResponse)
+	if err := x.ClientStream.RecvMsg(m); err != nil {
+		return nil, err
+	}
+	return m, nil
+}
+
+func (c *userServiceClient) GetUserInfoByClientStream(ctx context.Context, opts ...grpc.CallOption) (UserService_GetUserInfoByClientStreamClient, error) {
+	stream, err := c.cc.NewStream(ctx, &_UserService_serviceDesc.Streams[1], "/user.UserService/GetUserInfoByClientStream", opts...)
+	if err != nil {
+		return nil, err
+	}
+	x := &userServiceGetUserInfoByClientStreamClient{stream}
+	return x, nil
+}
+
+type UserService_GetUserInfoByClientStreamClient interface {
+	Send(*UserInfoRequest) error
+	CloseAndRecv() (*UserInfoResponse, error)
+	grpc.ClientStream
+}
+
+type userServiceGetUserInfoByClientStreamClient struct {
+	grpc.ClientStream
+}
+
+func (x *userServiceGetUserInfoByClientStreamClient) Send(m *UserInfoRequest) error {
+	return x.ClientStream.SendMsg(m)
+}
+
+func (x *userServiceGetUserInfoByClientStreamClient) CloseAndRecv() (*UserInfoResponse, error) {
+	if err := x.ClientStream.CloseSend(); err != nil {
+		return nil, err
+	}
+	m := new(UserInfoResponse)
+	if err := x.ClientStream.RecvMsg(m); err != nil {
+		return nil, err
+	}
+	return m, nil
+}
+
+func (c *userServiceClient) GetUserInfoByTWS(ctx context.Context, opts ...grpc.CallOption) (UserService_GetUserInfoByTWSClient, error) {
+	stream, err := c.cc.NewStream(ctx, &_UserService_serviceDesc.Streams[2], "/user.UserService/GetUserInfoByTWS", opts...)
+	if err != nil {
+		return nil, err
+	}
+	x := &userServiceGetUserInfoByTWSClient{stream}
+	return x, nil
+}
+
+type UserService_GetUserInfoByTWSClient interface {
+	Send(*UserInfoRequest) error
+	Recv() (*UserInfoResponse, error)
+	grpc.ClientStream
+}
+
+type userServiceGetUserInfoByTWSClient struct {
+	grpc.ClientStream
+}
+
+func (x *userServiceGetUserInfoByTWSClient) Send(m *UserInfoRequest) error {
+	return x.ClientStream.SendMsg(m)
+}
+
+func (x *userServiceGetUserInfoByTWSClient) Recv() (*UserInfoResponse, error) {
+	m := new(UserInfoResponse)
+	if err := x.ClientStream.RecvMsg(m); err != nil {
+		return nil, err
+	}
+	return m, nil
+}
+
 // UserServiceServer is the server API for UserService service.
 type UserServiceServer interface {
 	// 普通请求
 	GetUserInfo(context.Context, *UserInfoRequest) (*UserInfoResponse, error)
+	// 服务器流接受
+	GetUserInfoByServerStream(*UserInfoRequest, UserService_GetUserInfoByServerStreamServer) error
+	// 客户端流
+	GetUserInfoByClientStream(UserService_GetUserInfoByClientStreamServer) error
+	// 客户端服务器流
+	GetUserInfoByTWS(UserService_GetUserInfoByTWSServer) error
 }
 
 // UnimplementedUserServiceServer can be embedded to have forward compatible implementations.
@@ -273,6 +402,15 @@ type UnimplementedUserServiceServer struct {
 
 func (*UnimplementedUserServiceServer) GetUserInfo(context.Context, *UserInfoRequest) (*UserInfoResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetUserInfo not implemented")
+}
+func (*UnimplementedUserServiceServer) GetUserInfoByServerStream(*UserInfoRequest, UserService_GetUserInfoByServerStreamServer) error {
+	return status.Errorf(codes.Unimplemented, "method GetUserInfoByServerStream not implemented")
+}
+func (*UnimplementedUserServiceServer) GetUserInfoByClientStream(UserService_GetUserInfoByClientStreamServer) error {
+	return status.Errorf(codes.Unimplemented, "method GetUserInfoByClientStream not implemented")
+}
+func (*UnimplementedUserServiceServer) GetUserInfoByTWS(UserService_GetUserInfoByTWSServer) error {
+	return status.Errorf(codes.Unimplemented, "method GetUserInfoByTWS not implemented")
 }
 
 func RegisterUserServiceServer(s *grpc.Server, srv UserServiceServer) {
@@ -297,6 +435,79 @@ func _UserService_GetUserInfo_Handler(srv interface{}, ctx context.Context, dec 
 	return interceptor(ctx, in, info, handler)
 }
 
+func _UserService_GetUserInfoByServerStream_Handler(srv interface{}, stream grpc.ServerStream) error {
+	m := new(UserInfoRequest)
+	if err := stream.RecvMsg(m); err != nil {
+		return err
+	}
+	return srv.(UserServiceServer).GetUserInfoByServerStream(m, &userServiceGetUserInfoByServerStreamServer{stream})
+}
+
+type UserService_GetUserInfoByServerStreamServer interface {
+	Send(*UserInfoResponse) error
+	grpc.ServerStream
+}
+
+type userServiceGetUserInfoByServerStreamServer struct {
+	grpc.ServerStream
+}
+
+func (x *userServiceGetUserInfoByServerStreamServer) Send(m *UserInfoResponse) error {
+	return x.ServerStream.SendMsg(m)
+}
+
+func _UserService_GetUserInfoByClientStream_Handler(srv interface{}, stream grpc.ServerStream) error {
+	return srv.(UserServiceServer).GetUserInfoByClientStream(&userServiceGetUserInfoByClientStreamServer{stream})
+}
+
+type UserService_GetUserInfoByClientStreamServer interface {
+	SendAndClose(*UserInfoResponse) error
+	Recv() (*UserInfoRequest, error)
+	grpc.ServerStream
+}
+
+type userServiceGetUserInfoByClientStreamServer struct {
+	grpc.ServerStream
+}
+
+func (x *userServiceGetUserInfoByClientStreamServer) SendAndClose(m *UserInfoResponse) error {
+	return x.ServerStream.SendMsg(m)
+}
+
+func (x *userServiceGetUserInfoByClientStreamServer) Recv() (*UserInfoRequest, error) {
+	m := new(UserInfoRequest)
+	if err := x.ServerStream.RecvMsg(m); err != nil {
+		return nil, err
+	}
+	return m, nil
+}
+
+func _UserService_GetUserInfoByTWS_Handler(srv interface{}, stream grpc.ServerStream) error {
+	return srv.(UserServiceServer).GetUserInfoByTWS(&userServiceGetUserInfoByTWSServer{stream})
+}
+
+type UserService_GetUserInfoByTWSServer interface {
+	Send(*UserInfoResponse) error
+	Recv() (*UserInfoRequest, error)
+	grpc.ServerStream
+}
+
+type userServiceGetUserInfoByTWSServer struct {
+	grpc.ServerStream
+}
+
+func (x *userServiceGetUserInfoByTWSServer) Send(m *UserInfoResponse) error {
+	return x.ServerStream.SendMsg(m)
+}
+
+func (x *userServiceGetUserInfoByTWSServer) Recv() (*UserInfoRequest, error) {
+	m := new(UserInfoRequest)
+	if err := x.ServerStream.RecvMsg(m); err != nil {
+		return nil, err
+	}
+	return m, nil
+}
+
 var _UserService_serviceDesc = grpc.ServiceDesc{
 	ServiceName: "user.UserService",
 	HandlerType: (*UserServiceServer)(nil),
@@ -306,6 +517,23 @@ var _UserService_serviceDesc = grpc.ServiceDesc{
 			Handler:    _UserService_GetUserInfo_Handler,
 		},
 	},
-	Streams:  []grpc.StreamDesc{},
+	Streams: []grpc.StreamDesc{
+		{
+			StreamName:    "GetUserInfoByServerStream",
+			Handler:       _UserService_GetUserInfoByServerStream_Handler,
+			ServerStreams: true,
+		},
+		{
+			StreamName:    "GetUserInfoByClientStream",
+			Handler:       _UserService_GetUserInfoByClientStream_Handler,
+			ClientStreams: true,
+		},
+		{
+			StreamName:    "GetUserInfoByTWS",
+			Handler:       _UserService_GetUserInfoByTWS_Handler,
+			ServerStreams: true,
+			ClientStreams: true,
+		},
+	},
 	Metadata: "protobuf/user.proto",
 }

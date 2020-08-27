@@ -40,11 +40,19 @@ func main() {
 	//	log.Fatalln("greet service start fail")
 	//}
 
+	// 普通请求
+	//rpcUser := grpc.NewServer()
+	//pb.RegisterUserServiceServer(rpcUser, new(services.UserServicesImpl))
+	//err = rpcUser.Serve(listen)
+	//if err != nil {
+	//	log.Fatalf("user service start fail.")
+	//}
+
+	// 服务器流 && 客户端流
 	rpcUser := grpc.NewServer()
 	pb.RegisterUserServiceServer(rpcUser, new(services.UserServicesImpl))
 	err = rpcUser.Serve(listen)
 	if err != nil {
-		log.Fatalf("user service start fail.")
+		log.Fatalln(err)
 	}
-
 }

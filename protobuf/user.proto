@@ -16,4 +16,13 @@ service UserService {
 
     // 普通请求
     rpc GetUserInfo(UserInfoRequest)returns(UserInfoResponse){}
+
+    // 服务器流接受
+    rpc GetUserInfoByServerStream(UserInfoRequest)returns(stream UserInfoResponse){}
+
+    // 客户端流
+    rpc GetUserInfoByClientStream(stream UserInfoRequest)returns(UserInfoResponse){}
+
+    // 客户端服务器流
+    rpc GetUserInfoByTWS(stream UserInfoRequest)returns(stream UserInfoResponse){}
 }
